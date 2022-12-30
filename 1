@@ -1,0 +1,113 @@
+import os
+
+print("0 = addition")
+print("1 = subtraction")
+print("2 = multiplication")
+print("3 = division")
+print("4 = potentiation")
+x = 0
+while x == 0:
+    operation = int(input("Chose an operation: "))
+
+    if operation == 0:
+        print("You chose addition...")
+        numb1 = float(input("Chose the first number: "))
+        numb2 = float(input("Chose the second number: "))
+
+        print(f"The answer is {numb1 + numb2} ")
+
+        print("Do you want to continue?")
+        print("0 = yes")
+        print("1 = no")
+        x = int(input())
+        #os.system(clear)
+    elif x == 1:
+        print("bye")
+        break
+
+
+
+    if operation == 1:
+        print("You chose subtraction...")
+        numb1 = float(input("Chose the first number: "))
+        numb2 = float(input("Chose the second number: "))
+
+        print(f"The answer is {numb1 - numb2} ")
+
+        print("Do you want to continue?")
+        print("0 = yes")
+        print("1 = no")
+        x = int(input())
+    if x == 1:
+        print("Bye")
+        break
+
+    if operation == 2:
+        print("You chose multiplication...")
+        numb1 = float(input("Chose the first number: "))
+        numb2 = float(input("Chose the second number: "))
+
+        print(f"The answer is {numb1 * numb2} ")
+
+        print("Do you want to continue?")
+        print("0 = yes")
+        print("1 = no")
+        x = int(input())
+    if x == 1:
+        print("Bye")
+        break
+
+    if operation == 3:
+        print("You chose division...")
+        numb1 = float(input("Chose the first number: "))
+        numb2 = float(input("Chose the second number: "))
+
+        print(f"The answer is {numb1 / numb2} ")
+
+        print("Do you want to continue?")
+        print("0 = yes")
+        print("1 = no")
+        x = int(input())
+    if x == 1:
+        print("Bye")
+        break
+
+    if operation == 4:
+        print("You chose potentiation...")
+        numb1 = float(input("Chose the number: "))
+        numb2 = float(input("Chose the number of the power: "))
+
+        print(f"The answer is {pow(numb1, numb2)} ")
+
+        print("Do you want to continue?")
+        print("0 = yes")
+        print("1 = no")
+        x = int(input())
+    if x == 1:
+        print("Bye")
+        break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
